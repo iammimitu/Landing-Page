@@ -1,7 +1,7 @@
 body {
     background-color: darkslategray;
     color: rgb(255, 213, 176);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     height:100%;
     width:100%;
 }
@@ -60,5 +60,24 @@ a {
     text-align: center;
 }
 
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+}
 
+input[type="submit"] {
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: mintcream;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #f1c40f;
+    transition: background-color 0.5s;
+}
 
