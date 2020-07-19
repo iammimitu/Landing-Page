@@ -6,7 +6,6 @@ body {
     width:100%;
 }
 
-/* Header Area */
 #header {
     background-color: darkslategray;
     width: 100%;
@@ -17,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left:-10px;
 }
 
 .logo {
@@ -42,7 +42,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    padding-right: 80px;
+    padding-right: 50px;
 }
 
 a {
@@ -86,7 +86,7 @@ input[type="submit"]:hover {
     background-color: mintcream;
     color:darkslategray;
     padding: 5px 0 5px 0;
-    margin: 80px 0 80px -30px;
+    margin: 80px 0 80px -10px;
 }
 
 #feature {
@@ -121,7 +121,7 @@ input[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     width:100%;
-    margin-left: -30px;
+    margin-left: -10px;
 }
 
 .product {
@@ -168,6 +168,28 @@ button {
 button:hover {
     background-color: #f1c40f;
     transition: background-color 0.5s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 15px 0;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;    
+}
+
+footer ul li {
+    list-style:none;
+    padding-left: 18px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 
