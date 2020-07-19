@@ -25,10 +25,11 @@ body {
     align-items: center;
 }
 
-#logo {
-    font-size: 30px;
-    padding-right:20px ;
+.fas {
+    padding-right: 35px;
+    font-size: 35px;
 }
+
 
 nav {
     font-weight: 600;
@@ -79,5 +80,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #f1c40f;
     transition: background-color 0.5s;
+}
+
+#feature {
+    margin: 80px 525px 100px 525px;
+}
+
+.feature-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
