@@ -9,8 +9,10 @@
 
     <body>
         <header id="header">
-            <i class="fas fa-bread-slice"></i>            
-            <h1>Flour Lady</h1>
+            <div class="logo">
+                <i id="logo" class="fas fa-bread-slice"></i>            
+                <h1>Flour Lady</h1>
+            </div>
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
@@ -23,12 +25,16 @@
         <section id="hero">
             <h2>Enjoy the flour fun with your little ones!</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input id="email" type="email" name="email" placeholder="Enter your email" required>
-                <input id="submit" type="submit" value="Sign Me Up!">
+                <div>
+                    <input id="email" type="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Sign Me Up!">
+                </div>
             </form>
         </section>
 
-            <!-- Grid-How it works -->
+           <div class="container">
             <div id="feature">
                 <div class="feature-flex">
                     <i class="fas fa-diagnoses"></i>
@@ -78,14 +84,15 @@
                 </ul>
                 <button type="submit">Select</button>
             </div>
-        <footer>
-            <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <span>Copyright 2020, Flour Lady</span>
-        </footer>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2020, Flour Lady</span>
+            </footer>
+        </div>
     </body>
 
 </html>
