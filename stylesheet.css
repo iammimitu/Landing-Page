@@ -46,7 +46,7 @@ nav ul li {
 }
 
 a {
-    color: seashell;
+    color:mintcream;
     text-decoration: none;
 }
 
@@ -82,6 +82,13 @@ input[type="submit"]:hover {
     transition: background-color 0.5s;
 }
 
+#feature-container {
+    background-color: mintcream;
+    color:darkslategray;
+    padding: 5px 0 5px 0;
+    margin: 80px 0 80px -30px;
+}
+
 #feature {
     margin: 80px 525px 100px 525px;
 }
@@ -93,4 +100,76 @@ input[type="submit"]:hover {
     justify-content: flex-start;
     padding-bottom: 25px;
 }
+
+#product-vid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    padding: 50px 0 80px 0;
+}
+
+#product {
+    background-color: mintcream;
+    color: darkslategray;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-left: -30px;
+}
+
+.product {
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 10px;
+    padding-bottom: 20px;
+    width: calc(100%  / 5);
+    align-items: center;
+    justify-content: center;
+}
+
+.price-title {
+    background-color:peachpuff;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.product ul {
+    text-align: center;
+}
+
+.product ul li {
+    list-style-type: square;
+    padding-bottom: 5px;
+
+}
+
+button {
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color:peachpuff;
+    color: darkslategray;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: calc(100% /3 );
+}
+
+button:hover {
+    background-color: #f1c40f;
+    transition: background-color 0.5s;
+}
+
+
+
 
