@@ -213,6 +213,13 @@ footer ul li {
 }
 
 @media screen and (min-width:600px) and (max-width:950px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav li {
+        padding-bottom:5px;
+    }
     #product {
         flex-direction: column;
     }
